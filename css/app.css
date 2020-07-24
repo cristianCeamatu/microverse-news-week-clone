@@ -1,10 +1,50 @@
 /* Global*/
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
 .bg-red-color {
     background-color: #f72210;
 }
 
+.text-red-color {
+  color: #f72210;
+}
+
 .text-semi-white {
   color: rgba(233, 233, 233, 0.863);
+}
+
+.text-black {
+  color: #000;
+}
+
+.section-title {
+  color: rgba(3,3,3,.4);
+}
+
+.article-category {
+  bottom: 0;
+  left: 0;
+  font-size: 17px;
+  background-color: #ffffffe6;
+}
+
+.text-roboto {
+  font-family: 'Roboto Condensed', sans-serif;;
+}
+
+.text-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-subtitle {
+  font-size: 13px;
+  line-height: 1.4;
 }
 
 /* Navigation */
@@ -17,4 +57,9 @@
 .nav-brand svg {
   fill: white;
   height: 20px;
+}
+
+/* Top story */
+.top-story-main-article-title {
+  font-size: 22px;
 }

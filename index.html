@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/app.css">
   <title>News week homepage clone</title>
 </head>
@@ -37,44 +38,55 @@
   </nav>
 
   <!-- Main content -->
-  <main class="container">
+  <main class="container-fluid">
 
     <!-- Top story -->
-    <section class="top-story">
-      <p class="section-title">TOP STORY</p>
+    <section class="top-story my-3">
+      <p class="section-title font-weight-bold mb-2">TOP STORY</p>
 
       <div class="top-story-container">
-        <article class="top-story-main-article">
-          <div class="top-story-main-article-image">
+        <article class="top-story-main-article border-bottom">
+          <div class="top-story-main-article-image position-relative">
             <a href="#">
               <img src="./img/top-story/donald-trump.jpg" alt="Donald Trump">
-              <div class="article-category">U.S.</div>
+              <div class="article-category position-absolute text-red-color font-weight-bold px-3 py-1">U.S.</div>
             </a>
           </div>
 
           <div class="top-story-main-article-details">
-            <h1 class="top-story-main-article-title"><a href="">Trump Cancels Republican National Convention in Florida
+            <h1 class="top-story-main-article-title h5 font-weight-bold mt-2 text-roboto text-black"><a href="">Trump
+                Cancels
+                Republican
+                National
+                Convention in
+                Florida
                 Due to
                 COVID-19</a>
             </h1>
-            <p class="top-story-main-article-subtitle">"It's just not right with what's happened recently, the flare-up
+            <p class="top-story-main-article-subtitle text-subtitle text-arial">"It's just not right with what's
+              happened recently,
+              the flare-up
               in
               Florida, to have a big convention," President Donald Trump said Thursday.</p>
           </div>
         </article>
 
-        <article class="top-story-main-subarticle">
-          <div class="top-story-main-subarticle-image">
+        <article class="top-story-main-subarticle py-3 border-bottom">
+          <div class="top-story-main-subarticle-image float-left mr-3 mb-1">
             <a href="#">
               <img src="./img/top-story/coronaviruas-surge.jpg" alt="People with masks protesting">
             </a>
           </div>
 
           <div class="top-story-main-subarticle-details">
-            <h2 class="top-story-main-subarticle-title"><a href="">U.S. Surpasses 4 Million Coronavirus Cases As States
+            <h2 class="top-story-main-subarticle-title text-roboto font-weight-bold h6"><a href="">U.S. Surpasses 4
+                Million
+                Coronavirus
+                Cases As States
                 Battle New Surge</a>
             </h2>
-            <p class="top-story-main-subarticle-subtitle">Officials have blamed the surge in new coronavirus cases on
+            <p class="top-story-main-subarticle-subtitle text-subtitle text-arial">Officials have blamed the surge in
+              new coronavirus cases on
               states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
           </div>
         </article>
