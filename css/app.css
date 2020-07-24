@@ -53,8 +53,6 @@ img {
     height: 18px;
 }
 
-
-
 /* Navigation */
 .nav-button {
   font-size: 13px;
@@ -72,3 +70,16 @@ img {
   font-size: 22px;
 } 
 
+
+/* Pseudo elements for linter error */
+.featured-stories::before {
+  content: "";
+  display: block;
+  height: 18px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  right: -15px;
+}
