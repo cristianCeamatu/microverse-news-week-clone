@@ -1,8 +1,20 @@
+/* Global*/
 .bg-red-color {
     background-color: #f72210;
 }
 
+.text-semi-white {
+  color: rgba(233, 233, 233, 0.863);
+}
+
+/* Navigation */
+.nav-button {
+  font-size: 13px;
+  border-radius: 100px;
+  background-color: #ffe400;
+}
+
 .nav-brand svg {
-    fill: white;
-    height: 20px;
+  fill: white;
+  height: 20px;
 }
