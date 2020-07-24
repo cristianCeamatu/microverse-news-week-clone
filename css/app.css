@@ -68,7 +68,13 @@ img {
 /* Top story */
 .top-story-main-article-title {
   font-size: 22px;
-} 
+}
+
+/* The debate */
+.avatar {
+  width: 150px;
+  height: 150px;
+}
 
 
 /* Pseudo elements for linter error */
