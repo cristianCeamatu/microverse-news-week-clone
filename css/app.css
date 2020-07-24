@@ -47,6 +47,14 @@ img {
   line-height: 1.4;
 }
 
+.section-delimeter {
+    background-color: #F4F5F7;
+    width: 100%;
+    height: 18px;
+}
+
+
+
 /* Navigation */
 .nav-button {
   font-size: 13px;
@@ -62,4 +70,5 @@ img {
 /* Top story */
 .top-story-main-article-title {
   font-size: 22px;
-}
+} 
+
