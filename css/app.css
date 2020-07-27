@@ -112,7 +112,8 @@ button {
   height: 28px;
 }
 
-.sign-up-input {
+.sign-up-input,
+.newsletter-input {
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
@@ -125,6 +126,11 @@ button {
   right: 0;
 }
 
+/* Newsletter */
+.newsletter-subtitle {
+  font-size: 15px;
+}
+
 /* Pseudo elements for linter error */
 .featured-stories::before,
 .the-debate::before,
@@ -133,7 +139,8 @@ button {
 .my-turn::before,
 .magazine::before,
 .editor-picks::before,
-.subscribe::before {
+.subscribe::before,
+.newsletter::before {
   content: "";
   display: block;
   height: 18px;
