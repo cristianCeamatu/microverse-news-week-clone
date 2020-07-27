@@ -4,7 +4,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 button {
@@ -89,7 +89,7 @@ button {
 
 /* The debate */
 .avatar {
-  flex-basis: 35%;
+ width: 63px;
 }
 
 /* Culture travel */
@@ -101,6 +101,7 @@ button {
 /* Sign up */
 .sign-up {
   border: 1px solid #e5e5e5;
+  max-width: 300px;
 }
 
 .title-logo {
@@ -120,6 +121,13 @@ button {
 }
 
 /* Subscribe */
+.subscribe-images img {
+   max-width: 170px;
+}
+.subscribe-images{
+   max-width: 270px;
+}
+
 .subscribe-top-image {
   position: absolute;
   top: 10px;
