@@ -84,7 +84,8 @@ img {
 .featured-stories::before,
 .the-debate::before,
 .opinion::before,
-.more-stories::before {
+.more-stories::before,
+.my-turn::before {
   content: "";
   display: block;
   height: 18px;
