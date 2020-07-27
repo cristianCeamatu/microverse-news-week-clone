@@ -267,6 +267,24 @@ button {
     grid-row: 6 / span 1;
   }
 
+  .magazine-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .magazine-article-image img {
+    height: 162px;
+  }
+
+  .title-logo {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .magazine-article-title {
+    font-size: 20px;
+  }
+
   .featured-stories::before,
   .the-debate::before,
   .opinion::before,
