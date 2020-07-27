@@ -291,6 +291,26 @@ button {
     gap: 30px;
   }
 
+  .editor-picks-title {
+    font-size: 24px;
+  }
+
+  .editor-picks-subtitle {
+    font-size: 16px;
+  }
+
+  .subscribe {
+    border-top: 1px solid rgba(218, 218, 218, 0.849);
+  }
+
+  .subscribe-images {
+    width: 55%;
+  }
+
+  .subscribe-details *{
+    text-align: left;
+  }
+
   .featured-stories::before,
   .the-debate::before,
   .opinion::before,
