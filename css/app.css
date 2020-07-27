@@ -83,7 +83,8 @@ img {
 /* Pseudo elements for linter error */
 .featured-stories::before,
 .the-debate::before,
-.opinion::before {
+.opinion::before,
+.more-stories::before {
   content: "";
   display: block;
   height: 18px;
