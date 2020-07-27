@@ -99,7 +99,7 @@ button {
   background-color: #f4f5f6;
 }
 
-.sign-up-title {
+.title-logo {
   font-size: 19px;
 }
 
@@ -114,12 +114,21 @@ button {
   text-indent: 9px;
 }
 
+/* magazine section */
+
+.magazine-features {
+  background-color: #F4F5F6;
+
+}
+
+
 /* Pseudo elements for linter error */
 .featured-stories::before,
 .the-debate::before,
 .opinion::before,
 .more-stories::before,
-.my-turn::before {
+.my-turn::before,
+.magazine::before {
   content: "";
   display: block;
   height: 18px;
