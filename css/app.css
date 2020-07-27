@@ -307,8 +307,20 @@ button {
     width: 55%;
   }
 
-  .subscribe-details *{
+  .subscribe-details *,
+  .newsletter-header * {
     text-align: left;
+  }
+
+  .newsletter-image {
+    width: 210px;
+    height: 254px;
+    overflow: hidden;
+  }
+
+  .newsletter-image img {
+    width: 210px;
+    height: 254px;
   }
 
   .featured-stories::before,
