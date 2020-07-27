@@ -131,6 +131,18 @@ button {
   font-size: 15px;
 }
 
+/* Footer */
+.footer-logo {
+  fill: #f72210;
+  width: 236px;
+  height: 36px;
+}
+
+.footer {
+  font-size: 12px;
+  color: #666;
+}
+
 /* Pseudo elements for linter error */
 .featured-stories::before,
 .the-debate::before,
@@ -140,7 +152,8 @@ button {
 .magazine::before,
 .editor-picks::before,
 .subscribe::before,
-.newsletter::before {
+.newsletter::before,
+.footer::before {
   content: "";
   display: block;
   height: 18px;
