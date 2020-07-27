@@ -1,4 +1,9 @@
 /* Global*/
+body {
+  max-width: 100%;
+
+}
+
 a {
   color: inherit;
 }
@@ -85,6 +90,10 @@ button {
 /* Top story */
 .top-story-main-article-title {
   font-size: 22px;
+}
+
+.top-story-main-article {
+  border-bottom: 1px solid #ccc;
 }
 
 /* The debate */
@@ -199,4 +208,75 @@ button {
 
 .the-debate-vs::after {
   top: 50%;
+}
+
+/* Medie queries */ 
+@media (min-width: 768px) {
+  .nav-button {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+
+  .main-top-grid-container {
+    display: grid;
+    grid-template-columns: 45vw 55vw;
+    grid-template-rows: repeat(6,  minmax(min-content, max-content));
+  }
+
+  .featured-stories {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 4;
+  }
+
+  .top-story {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .top-story-main-article {
+    border-bottom: 0;
+  }
+
+  .my-turn {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  .my-turn-container,
+  .culture-travel-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .culture-travel {
+    grid-row: 3 / span 1;
+  }
+
+  .more-stories {
+    grid-row: 4 / span 1;
+  }
+
+  .the-debate {
+    grid-column: 1 / span 2;
+    grid-row: 5 / span 1;
+  }
+
+  .opinion {
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 1;
+  }
+
+  .featured-stories::before,
+  .the-debate::before,
+  .opinion::before,
+  .more-stories::before,
+  .my-turn::before,
+  .magazine::before,
+  .editor-picks::before,
+  .subscribe::before,
+  .newsletter::before,
+  .footer::before {
+    display: none;
+  }
 }
