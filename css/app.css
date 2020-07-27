@@ -79,6 +79,12 @@ img {
   flex-basis: 35%;
 }
 
+/* Culture travel */
+.culture-travel-tag {
+  background-color: #c2d4d7;
+  color: #333;
+}
+
 
 /* Pseudo elements for linter error */
 .featured-stories::before,
