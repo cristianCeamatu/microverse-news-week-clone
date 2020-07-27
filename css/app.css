@@ -15,6 +15,10 @@ button {
     background-color: #f72210;
 }
 
+.bg-gray {
+  background-color: #f4f5f6;
+}
+
 .section-title {
   color: rgba(3,3,3,.4);
 }
@@ -97,7 +101,6 @@ button {
 /* Sign up */
 .sign-up {
   border: 1px solid #e5e5e5;
-  background-color: #f4f5f6;
 }
 
 .title-logo {
@@ -115,13 +118,12 @@ button {
   text-indent: 9px;
 }
 
-/* magazine section */
-
-.magazine-features {
-  background-color: #F4F5F6;
-
+/* Subscribe */
+.subscribe-top-image {
+  position: absolute;
+  top: 10px;
+  right: 0;
 }
-
 
 /* Pseudo elements for linter error */
 .featured-stories::before,
@@ -130,7 +132,8 @@ button {
 .more-stories::before,
 .my-turn::before,
 .magazine::before,
-.editor-picks::before {
+.editor-picks::before,
+.subscribe::before {
   content: "";
   display: block;
   height: 18px;
