@@ -49,6 +49,7 @@ button {
 .text-subtitle {
   font-size: 13px;
   line-height: 1.4;
+  color: #333;
 }
 
 .font-size-14 {
@@ -128,7 +129,8 @@ button {
 .opinion::before,
 .more-stories::before,
 .my-turn::before,
-.magazine::before {
+.magazine::before,
+.editor-picks::before {
   content: "";
   display: block;
   height: 18px;
