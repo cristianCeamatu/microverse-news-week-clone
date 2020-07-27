@@ -285,6 +285,12 @@ button {
     font-size: 20px;
   }
 
+  .editor-picks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
   .featured-stories::before,
   .the-debate::before,
   .opinion::before,
