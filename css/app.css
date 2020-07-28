@@ -125,6 +125,7 @@ button {
 
 .subscribe-images {
    width: 330px;
+   max-width: 100%;
 }
 
 .subscribe-top-image {
@@ -427,5 +428,4 @@ button {
     width: 280px;
     left: -50px;
   }
-
 }
