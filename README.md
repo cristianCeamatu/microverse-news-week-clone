@@ -1,13 +1,17 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Using Bootstrap: Replica of the news site Newsweek.com
+# Microverse project: Using Bootstrap - Replica of the news site Newsweek.com
 
 > This is a Newsweek homepage page clone using HTML and CSS3.
 
 ## Screenshots of our clone website
 
 ![screenshot](./.github/app-screenshot.png)
+
+## Link to the original website
+
+[Original version](https://www.newsweek.com/)
 
 
 The project is built using Html and CSS with an extensive use of the Bootstrap CSS framework, flex and grid positioning.
