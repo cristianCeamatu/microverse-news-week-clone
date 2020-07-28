@@ -3,6 +3,11 @@ a {
   color: inherit;
 }
 
+body {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
 img {
   width: 100%;
 }
@@ -427,5 +432,17 @@ button {
     height: 320px;
     width: 280px;
     left: -50px;
+  }
+
+  .nav-lg-middle::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 66px;
+    background-color: #F72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #F72210
   }
 }
