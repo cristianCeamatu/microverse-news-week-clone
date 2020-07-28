@@ -1,0 +1,227 @@
+[33mcommit 6e72b6552a4fa82c1f6b06c1df0748f3da102e08[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-branch[m[33m, [m[1;31morigin/feature-branch[m[33m)[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Tue Jul 28 10:53:26 2020 +0100
+
+    Styling main-grid-container for 992px
+
+[33mcommit e4f369ae5ddd0afbfb23a590d5c77b82f4e57a51[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Tue Jul 28 11:52:06 2020 +0300
+
+    Finished styling breakpoint 992px for navigation section
+
+[33mcommit 55a53a89d27386bdba07379da082b3042c1a5ed8[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 18:58:41 2020 +0300
+
+    Finished styling mobile breakpoint 768px footer section
+
+[33mcommit 0f6b7ae1df5d27900a8daea8d57106de168d28e2[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 18:47:04 2020 +0300
+
+    Finishied styling mobile breakpoint 768px newsletter section
+
+[33mcommit 5bf607e5ebf1866fe917b4cfdbe53f76df677f07[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 18:38:12 2020 +0300
+
+    Finishied styling mobile breakpoin 768px subscribe section
+
+[33mcommit 84a7ebed801341242b021def477ac2d38410764f[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Mon Jul 27 16:24:06 2020 +0100
+
+    Finished mobile breakpoint 768px editor picks section
+
+[33mcommit 7a64550db79cd2957c0edd9a1288b250e8e84d65[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Mon Jul 27 16:20:21 2020 +0100
+
+    Finished mobile breakpoint 768px magazine section
+
+[33mcommit 0212d3cb806a850f9a854891207158694d505513[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 17:43:33 2020 +0300
+
+    Finished mobile breakpoint 768px for the main-top-grid-container
+
+[33mcommit 232151c264404e367ecabcc6f12c278cdac16957[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Mon Jul 27 14:21:06 2020 +0100
+
+    Finished styling the medium screen size
+
+[33mcommit 5d254bd5c1a53cc66bd6a99cd4d6629d86697289[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 15:30:15 2020 +0300
+
+    Finished styling footer section
+
+[33mcommit 74f01a4ab987166915d1dce74494e58287795f1d[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 13:58:26 2020 +0300
+
+    Finished styling newsletter section
+
+[33mcommit ef96ec14ac7cfdc07cf31adc91b5e94b3df9cd1c[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 13:49:10 2020 +0300
+
+    Finished styling the subscribe section
+
+[33mcommit 64638d0bee9c1eee6ccbd611681a8c4a3fa6b9d2[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Mon Jul 27 11:33:05 2020 +0100
+
+    Styling editor-picks section
+
+[33mcommit cdf00047f91eff46f9eeeda9a7a2dcb67cbcb18e[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Mon Jul 27 11:18:25 2020 +0100
+
+    Finished styling magazine-sction
+
+[33mcommit d4217b3076cb0bd0f01bf085dc2d990da40f7d95[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 12:43:09 2020 +0300
+
+    Finished styling sign-up section
+
+[33mcommit fac791040650bf7027843de1b684efe0a8a0f066[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 12:27:14 2020 +0300
+
+    Finished styling culture-travel section
+
+[33mcommit 0f56d07d15e214af0ca6c417497c9838cadc93f9[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 12:17:10 2020 +0300
+
+    Finished styling my-turn section
+
+[33mcommit ae811f0823af22db95f1b1dee1a25ac3cb1fc1fd[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Mon Jul 27 09:55:12 2020 +0100
+
+    Styling more stories section
+
+[33mcommit ef34ce36a75f0808d9fe08f305ada8cd1471b072[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Mon Jul 27 09:39:13 2020 +0100
+
+    Styling opinion section
+
+[33mcommit a241124573612841c4ba145597dc9b607fb45059[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Mon Jul 27 11:16:55 2020 +0300
+
+    Styled the debate section
+
+[33mcommit bce7afb11e560cfa16bb322542c664d2d59ed0f7[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 18:48:47 2020 +0300
+
+    Base style for the-debate section
+
+[33mcommit 4f7138eaaa83ee305971d88fc72dae81d48da08f[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 18:40:26 2020 +0300
+
+    Added section delimeter for featured-stories
+
+[33mcommit e36f88fef58c5db519eed167c565d4da58f2a6a2[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Fri Jul 24 16:33:40 2020 +0100
+
+    Styling to featured stories
+
+[33mcommit 7d1ce8898c4055b64d29f4ecbcc724235ea58df5[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 17:41:30 2020 +0300
+
+    Finished styling top story mobile version
+
+[33mcommit eada9f20e217f878d3698526b790411d8d6ddaf8[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 17:08:53 2020 +0300
+
+    Basic styles for the navigation mobile versione
+
+[33mcommit 4b4aded3ec778d7092ab83b70fb987a9de89f94b[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Fri Jul 24 14:31:23 2020 +0100
+
+    Styling the nav-bar
+
+[33mcommit 2205732a25c1ba05ed9e0814086ec517c630db49[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Fri Jul 24 14:10:31 2020 +0100
+
+    Added bootstrap link
+
+[33mcommit 631ad747fbc44cfd77c32ffb650d57ad663312e6[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Fri Jul 24 14:06:29 2020 +0100
+
+    Added markup for the footer section
+
+[33mcommit 67e243529aebdf44e015f92130bd8ba39237aca4[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 15:40:17 2020 +0300
+
+    Added markup for the newsletter section
+
+[33mcommit b263f04a2b21b12f87b3afef1d91f162af85808e[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 15:37:40 2020 +0300
+
+    Added markup for the subsbscribe section
+
+[33mcommit 455df0fd7d1076d029de4a7f4bbe0ddb596d8658[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 15:31:33 2020 +0300
+
+    Added markup for the editor-picks section
+
+[33mcommit ebea140c3ad45bc6df3fba6da93e65abd30c1289[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 15:27:21 2020 +0300
+
+    Added markup for the magazine section
+
+[33mcommit 962ba7d30897eca8e485a14f41e43e2108367cbc[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 15:17:38 2020 +0300
+
+    Added markup for the sign-up section
+
+[33mcommit cbcf0f4243832f1a4a3e18c78f4900b7133672d7[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 15:14:08 2020 +0300
+
+    Added markup for my-turn and culture-travel sections
+
+[33mcommit 47a4f6695c23f67a6cee0f8975b3a081b68c20ae[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Fri Jul 24 11:55:50 2020 +0100
+
+    Added markup more stories section
+
+[33mcommit 62b5b8a10242c21fc4a7b2b492aedcd1f56bd9c6[m
+Author: GraceOyiza <graceoyiza13@gmail.com>
+Date:   Fri Jul 24 11:45:08 2020 +0100
+
+    Added markup for the debate and opinion section
+
+[33mcommit c210d5e0196e2c7d174555f8bb49916379459da0[m
+Author: cristianCeamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 13:19:40 2020 +0300
+
+    Added basic html markup for the nav, top story and featured stories
+
+[33mcommit da149e220869d0fd72b07d5831bfa3f4d6bffe74[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Cristian Viorel Ceamatu <cristian.ceamatu@gmail.com>
+Date:   Fri Jul 24 12:40:38 2020 +0300
+
+    Initial commit

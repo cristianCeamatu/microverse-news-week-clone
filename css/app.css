@@ -1,9 +1,4 @@
 /* Global*/
-body {
-  max-width: 100%;
-
-}
-
 a {
   color: inherit;
 }
@@ -63,12 +58,6 @@ button {
 
 .font-size-14 {
   font-size: 14px;
-}
-
-.section-delimeter {
-    background-color: #F4F5F7;
-    width: 100%;
-    height: 18px;
 }
 
 .outline-none {
@@ -131,10 +120,11 @@ button {
 
 /* Subscribe */
 .subscribe-images img {
-   max-width: 170px;
+   width: 170px;
 }
-.subscribe-images{
-   max-width: 270px;
+
+.subscribe-images {
+   width: 330px;
 }
 
 .subscribe-top-image {
@@ -220,7 +210,7 @@ button {
   .main-top-grid-container {
     display: grid;
     grid-template-columns: 45vw 55vw;
-    grid-template-rows: repeat(7,  minmax(min-content, max-content));
+    grid-template-rows: repeat(5,  minmax(min-content, max-content));
   }
 
   .featured-stories {
@@ -259,14 +249,9 @@ button {
     grid-row: 4 / span 1;
   }
 
-  .the-debate {
+  .main-grid-container-aside {
     grid-column: 1 / span 2;
     grid-row: 5 / span 1;
-  }
-
-  .opinion {
-    grid-column: 1 / span 2;
-    grid-row: 6 / span 1;
   }
 
   .sign-up {
@@ -280,8 +265,12 @@ button {
     gap: 30px;
   }
 
+  .magazine-article-image {
+    overflow: hidden;
+  }
+
   .magazine-article-image img {
-    height: 162px;
+    height: 200px;
   }
 
   .title-logo {
@@ -312,10 +301,6 @@ button {
 
   .subscribe-title {
     font-size: 24px;
-  }
-
-  .subscribe-images {
-    width: 55%;
   }
 
   .subscribe-details *,
@@ -370,36 +355,77 @@ button {
   .main-top-grid-container {
     display: grid;
     grid-template-columns: 30vw 40vw 30vw;
-    grid-auto-rows: repeat(5,  minmax(min-content, max-content));
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
   }
 
   .featured-stories {
     grid-column: 1 / span 1;
-    
+    grid-row: 1 / span 4;
   }
 
   .top-story {
     grid-column: 2 / span 1;
-   
-  }
-
-  .the-debate {
-    grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-   
   }
 
-  .opinion {
-    grid-column: 3 / span 1;
+  .my-turn {
+    grid-column: 2 / span 1;
     grid-row: 2 / span 1;
+  }
+
+  .culture-travel {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  .main-grid-container-aside {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 3;
   }
 
   .sign-up {
     grid-column: 3 / span 1;
-    grid-row: 3 / span 1;
+    grid-row: 4 / span 1;
+    align-self: start;
   }
 
+  .editor-picks {
+    border-bottom: 1px solid rgba(219, 219, 219, 0.89);
+  }
 
-  
+  .editor-picks-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .newsletter-title {
+    font-size: 24px;
+  }
+
+  .subscribe {
+    border: none;
+    flex-basis: 70%;
+  }
+
+  .newsletter {
+    border: none;
+    flex-basis: 30%;
+  }
+
+  .subscribe-images {
+    min-width: 250px;
+    max-width: 250px;
+  }
+
+  .newsletter-image {
+    height: 320px;
+    width: 280px;
+  }
+
+  .newsletter-image img {
+    height: 320px;
+    width: 280px;
+    left: -50px;
+  }
 
 }
