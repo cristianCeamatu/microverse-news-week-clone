@@ -1,30 +1,27 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Positioning and Floating Elements project: New York Times article page
+# Using Bootstrap: Replica of the news site Newsweek.com
 
-> This is a New York Times article page clone using HTML and CSS3.
-
-## Screenshots of original website
-
-![screenshot](./app-screenshot-original-full.png)
+> This is a Newsweek homepage page clone using HTML and CSS3.
 
 ## Screenshots of our clone website
 
-![screenshot](./app-screenshot-clone-full.png)
+![screenshot](./.github/app-screenshot.png)
 
 
-The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
+The project is built using Html and CSS with an extensive use of the Bootstrap CSS framework, flex and grid positioning.
 
 ## Built With
 
 - HTML
 - CSS3
+- Bootstrap
 - Font awesome icons
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-new-york-times-article-page/adding-article-page/index.html)
+[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-news-week-clone/tree/feature-branch)
 
 ## To get a local copy up and running follow these simple example steps.
 
