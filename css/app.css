@@ -178,8 +178,8 @@ button {
   border-top: 1px solid #e2e2e2;
   position: absolute;
   top: 0;
-  left: -15px;
-  right: -15px;
+  left: 0;
+  right: 0;
 }
 
 .the-debate-article:first-of-type {
@@ -220,7 +220,7 @@ button {
   .main-top-grid-container {
     display: grid;
     grid-template-columns: 45vw 55vw;
-    grid-template-rows: repeat(6,  minmax(min-content, max-content));
+    grid-template-rows: repeat(7,  minmax(min-content, max-content));
   }
 
   .featured-stories {
@@ -250,10 +250,12 @@ button {
   }
 
   .culture-travel {
+    grid-column: 2 / span 1;
     grid-row: 3 / span 1;
   }
 
   .more-stories {
+    grid-column: 2 / span 1;
     grid-row: 4 / span 1;
   }
 
@@ -265,6 +267,11 @@ button {
   .opinion {
     grid-column: 1 / span 2;
     grid-row: 6 / span 1;
+  }
+
+  .sign-up {
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 1;
   }
 
   .magazine-container {
@@ -303,6 +310,10 @@ button {
     border-top: 1px solid rgba(218, 218, 218, 0.849);
   }
 
+  .subscribe-title {
+    font-size: 24px;
+  }
+
   .subscribe-images {
     width: 55%;
   }
@@ -334,5 +345,25 @@ button {
   .newsletter::before,
   .footer::before {
     display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-brand svg {
+    width: 396px;
+    height: 60px;
+  }
+
+  .nav-lg-middle {
+    font-size: 19px;
+  }
+
+  .nav-lg-middle-search {
+    line-height: 24px;
+    height: 24px;
+  }
+
+  .nav-lg-bottom {
+    color: #807f84;
   }
 }
