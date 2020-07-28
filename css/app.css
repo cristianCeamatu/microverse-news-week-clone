@@ -210,7 +210,7 @@ button {
 
   .main-top-grid-container {
     display: grid;
-    grid-template-columns: 45vw 55vw;
+    grid-template-columns: 45% 55%;
     grid-template-rows: repeat(5,  minmax(min-content, max-content));
   }
 
@@ -355,7 +355,7 @@ button {
 
   .main-top-grid-container {
     display: grid;
-    grid-template-columns: 30vw 40vw 30vw;
+    grid-template-columns: 30% 40% 30%;
     grid-template-rows: repeat(4, minmax(min-content, max-content));
   }
 
