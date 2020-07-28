@@ -21,7 +21,7 @@ The project is built using Html and CSS with an extensive use of the Bootstrap C
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-news-week-clone/tree/feature-branch)
+[Live Demo Link](https://rawcdn.githack.com/cristianCeamatu/microverse-news-week-clone/5f371f1d3ec3732f46862c5fd46c91b6e66aaa40/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -42,15 +42,16 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 👤 **Cristian Viorel Ceamatu**
 
-- Github: [@githubhandle](https://github.com/cristianCeamatu)
-- Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
+- Github: [@gcristianCeamatu](https://github.com/cristianCeamatu)
+- Twitter: [@CeamatuV](https://twitter.com/CeamatuV)
+- Linkedin: [@Ceamatu-Cristian](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
 
-👤 **Diego Lira**
+👤 **Popoola Grace Boluwatife**
 
-- Github: [@githubhandle](https://github.com/lirad)
-- Twitter: [@twitterhandle](https://twitter.com/lirad)
-- Linkedin: [linkedin](https://www.linkedin.com/in/diegoalira/)
+- Github: [@GraceOyiza](https://github.com/GraceOyiza)
+- Twitter: [@_PopsonGrace](https://twitter.com/_PopsonGrace)
+- LinkedIn: [@grace](https://www.linkedin.com/in/grace-popoola-657a181aa/)
+
 
 ## Show your support
 
