@@ -1,4 +1,4 @@
-/* Global*/
+/* Global */
 a {
   color: inherit;
 }
@@ -17,7 +17,7 @@ button {
 }
 
 .bg-red-color {
-    background-color: #f72210;
+  background-color: #f72210;
 }
 
 .bg-gray {
@@ -25,7 +25,7 @@ button {
 }
 
 .section-title {
-  color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .article-category {
@@ -36,7 +36,7 @@ button {
 }
 
 .text-roboto {
-  font-family: 'Roboto Condensed', sans-serif;;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .text-arial {
@@ -92,7 +92,7 @@ button {
 
 /* The debate */
 .avatar {
- width: 63px;
+  width: 63px;
 }
 
 /* Culture travel */
@@ -125,12 +125,12 @@ button {
 
 /* Subscribe */
 .subscribe-images img {
-   width: 170px;
+  width: 170px;
 }
 
 .subscribe-images {
-   width: 330px;
-   max-width: 100%;
+  width: 330px;
+  max-width: 100%;
 }
 
 .subscribe-top-image {
@@ -206,7 +206,7 @@ button {
   top: 50%;
 }
 
-/* Medie queries */ 
+/* Medie queries */
 @media (min-width: 768px) {
   .nav-button {
     font-size: 18px;
@@ -216,7 +216,7 @@ button {
   .main-top-grid-container {
     display: grid;
     grid-template-columns: 45% 55%;
-    grid-template-rows: repeat(5,  minmax(min-content, max-content));
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
   }
 
   .featured-stories {
@@ -434,15 +434,15 @@ button {
     left: -50px;
   }
 
-  .nav-lg-middle::before{
+  .nav-lg-middle::before {
     position: absolute;
     top: 0;
     right: 0;
     content: "";
     display: block;
     width: 66px;
-    background-color: #F72210;
+    background-color: #f72210;
     border-left: 12px solid white;
-    border-top: 13px solid #F72210
+    border-top: 13px solid #f72210;
   }
 }
