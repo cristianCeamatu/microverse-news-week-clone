@@ -25,7 +25,7 @@ The project is built using Html and CSS with an extensive use of the Bootstrap C
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/cristianCeamatu/microverse-news-week-clone/5f371f1d3ec3732f46862c5fd46c91b6e66aaa40/index.html)
+[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-news-week-clone/feature-branch/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 
