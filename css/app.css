@@ -277,6 +277,7 @@ button {
 
   .magazine-article-image img {
     height: 200px;
+    object-fit: cover;
   }
 
   .title-logo {
@@ -323,6 +324,7 @@ button {
   .newsletter-image img {
     width: 210px;
     height: 254px;
+    object-fit: cover;
   }
 
   .featured-stories::before,
