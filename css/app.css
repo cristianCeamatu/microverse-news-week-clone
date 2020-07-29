@@ -69,6 +69,10 @@ button {
   outline: none;
 }
 
+.grid {
+  display: grid;
+}
+
 /* Navigation */
 .nav-button {
   font-size: 13px;
@@ -212,7 +216,6 @@ button {
   }
 
   .main-top-grid-container {
-    display: grid;
     grid-template-columns: 45% 55%;
     grid-template-rows: repeat(5, minmax(min-content, max-content));
   }
@@ -238,7 +241,6 @@ button {
 
   .my-turn-container,
   .culture-travel-container {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
@@ -264,7 +266,6 @@ button {
   }
 
   .magazine-container {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
   }
@@ -287,7 +288,6 @@ button {
   }
 
   .editor-picks-container {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
@@ -359,7 +359,6 @@ button {
   }
 
   .main-top-grid-container {
-    display: grid;
     grid-template-columns: 30% 40% 30%;
     grid-template-rows: repeat(4, minmax(min-content, max-content));
   }
