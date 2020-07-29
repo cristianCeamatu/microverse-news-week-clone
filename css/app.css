@@ -76,8 +76,7 @@ button {
   background-color: #ffe400;
 }
 
-.nav-brand svg {
-  fill: white;
+.nav-brand img {
   height: 20px;
 }
 
@@ -146,7 +145,6 @@ button {
 
 /* Footer */
 .footer-logo {
-  fill: #f72210;
   width: 236px;
   height: 36px;
 }
@@ -342,7 +340,7 @@ button {
 }
 
 @media (min-width: 992px) {
-  .nav-brand svg {
+  .nav-brand img {
     width: 396px;
     height: 60px;
   }
