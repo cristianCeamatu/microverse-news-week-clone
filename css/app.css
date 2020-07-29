@@ -1,3 +1,447 @@
+/* Global */
+a {
+  color: inherit;
+}
+
 body {
-  background-color: blue;
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-red-color {
+  background-color: #f72210;
+}
+
+.bg-gray {
+  background-color: #f4f5f6;
+}
+
+.section-title {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.article-category {
+  bottom: 0;
+  left: 0;
+  font-size: 17px;
+  background-color: #ffffffe6;
+}
+
+.text-roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-red-color {
+  color: #f72210;
+}
+
+.text-semi-white {
+  color: rgba(233, 233, 233, 0.863);
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-subtitle {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.grid {
+  display: grid;
+}
+
+/* Navigation */
+.nav-button {
+  font-size: 13px;
+  border-radius: 100px;
+  background-color: #ffe400;
+}
+
+.nav-brand img {
+  height: 20px;
+}
+
+/* Top story */
+.top-story-main-article-title {
+  font-size: 22px;
+}
+
+.top-story-main-article {
+  border-bottom: 1px solid #ccc;
+}
+
+/* The debate */
+.avatar {
+  width: 63px;
+}
+
+/* Culture travel */
+.culture-travel-tag {
+  background-color: #c2d4d7;
+  color: #333;
+}
+
+/* Sign up */
+.sign-up {
+  border: 1px solid #e5e5e5;
+  max-width: 300px;
+}
+
+.title-logo {
+  font-size: 19px;
+}
+
+.sign-up-logo {
+  width: 28px;
+  height: 28px;
+}
+
+.sign-up-input,
+.newsletter-input {
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+}
+
+/* Subscribe */
+.subscribe-images img {
+  width: 170px;
+}
+
+.subscribe-images {
+  width: 330px;
+  max-width: 100%;
+}
+
+.subscribe-top-image {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+/* Newsletter */
+.newsletter-subtitle {
+  font-size: 15px;
+}
+
+/* Footer */
+.footer-logo {
+  width: 236px;
+  height: 36px;
+}
+
+.footer {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Pseudo elements for linter error */
+.featured-stories::before,
+.the-debate::before,
+.opinion::before,
+.more-stories::before,
+.my-turn::before,
+.magazine::before,
+.editor-picks::before,
+.subscribe::before,
+.newsletter::before,
+.footer::before {
+  content: "";
+  display: block;
+  height: 18px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.the-debate-article:first-of-type {
+  border-top: 4px solid #d9d9d9;
+}
+
+.the-debate-article:last-of-type {
+  border-bottom: 4px solid #d9d9d9;
+}
+
+.the-debate-vs::before,
+.the-debate-vs::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #d9d9d9;
+  display: block;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.the-debate-vs::before {
+  top: calc(50% - 2px);
+}
+
+.the-debate-vs::after {
+  top: 50%;
+}
+
+/* Medie queries */
+@media (min-width: 768px) {
+  .nav-button {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+
+  .main-top-grid-container {
+    grid-template-columns: 45% 55%;
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+  }
+
+  .featured-stories {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 4;
+  }
+
+  .top-story {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .top-story-main-article {
+    border-bottom: 0;
+  }
+
+  .my-turn {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  .my-turn-container,
+  .culture-travel-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .culture-travel {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  .more-stories {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+  }
+
+  .main-grid-container-aside {
+    grid-column: 1 / span 2;
+    grid-row: 5 / span 1;
+  }
+
+  .sign-up {
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 1;
+  }
+
+  .magazine-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .magazine-article-image {
+    overflow: hidden;
+  }
+
+  .magazine-article-image img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .title-logo {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .magazine-article-title {
+    font-size: 20px;
+  }
+
+  .editor-picks-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .editor-picks-title {
+    font-size: 24px;
+  }
+
+  .editor-picks-subtitle {
+    font-size: 16px;
+  }
+
+  .subscribe {
+    border-top: 1px solid rgba(218, 218, 218, 0.849);
+  }
+
+  .subscribe-title {
+    font-size: 24px;
+  }
+
+  .subscribe-details *,
+  .newsletter-header * {
+    text-align: left;
+  }
+
+  .newsletter-image {
+    width: 210px;
+    height: 254px;
+    overflow: hidden;
+  }
+
+  .newsletter-image img {
+    width: 210px;
+    height: 254px;
+    object-fit: cover;
+  }
+
+  .featured-stories::before,
+  .the-debate::before,
+  .opinion::before,
+  .more-stories::before,
+  .my-turn::before,
+  .magazine::before,
+  .editor-picks::before,
+  .subscribe::before,
+  .newsletter::before,
+  .footer::before {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-brand img {
+    width: 396px;
+    height: 60px;
+  }
+
+  .nav-lg-middle {
+    font-size: 19px;
+  }
+
+  .nav-lg-middle-search {
+    line-height: 24px;
+    height: 24px;
+  }
+
+  .nav-lg-bottom {
+    color: #807f84;
+  }
+
+  .main-top-grid-container {
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+  }
+
+  .featured-stories {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 4;
+  }
+
+  .top-story {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .my-turn {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  .culture-travel {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  .main-grid-container-aside {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 3;
+  }
+
+  .sign-up {
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;
+    align-self: start;
+  }
+
+  .editor-picks {
+    border-bottom: 1px solid rgba(219, 219, 219, 0.89);
+  }
+
+  .editor-picks-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .newsletter-title {
+    font-size: 24px;
+  }
+
+  .subscribe {
+    border: none;
+    flex-basis: 70%;
+  }
+
+  .newsletter {
+    border: none;
+    flex-basis: 30%;
+  }
+
+  .subscribe-images {
+    min-width: 250px;
+    max-width: 250px;
+  }
+
+  .newsletter-image {
+    height: 320px;
+    width: 280px;
+  }
+
+  .newsletter-image img {
+    height: 320px;
+    width: 280px;
+    left: -50px;
+  }
+
+  .nav-lg-middle::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 66px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
 }

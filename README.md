@@ -1,30 +1,31 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Positioning and Floating Elements project: New York Times article page
+# Microverse project: Using Bootstrap - Replica of the news site Newsweek.com
 
-> This is a New York Times article page clone using HTML and CSS3.
-
-## Screenshots of original website
-
-![screenshot](./app-screenshot-original-full.png)
+> This is a Newsweek homepage page clone using HTML and CSS3.
 
 ## Screenshots of our clone website
 
-![screenshot](./app-screenshot-clone-full.png)
+![screenshot](./.github/app-screenshot.png)
+
+## Link to the original website
+
+[Original version](https://www.newsweek.com/)
 
 
-The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
+The project is built using Html and CSS with an extensive use of the Bootstrap CSS framework, flex and grid positioning.
 
 ## Built With
 
 - HTML
 - CSS3
+- Bootstrap
 - Font awesome icons
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-new-york-times-article-page/adding-article-page/index.html)
+[Live Demo Link](https://rawcdn.githack.com/cristianCeamatu/microverse-news-week-clone/5f371f1d3ec3732f46862c5fd46c91b6e66aaa40/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -45,15 +46,16 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 👤 **Cristian Viorel Ceamatu**
 
-- Github: [@githubhandle](https://github.com/cristianCeamatu)
-- Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
+- Github: [@gcristianCeamatu](https://github.com/cristianCeamatu)
+- Twitter: [@CeamatuV](https://twitter.com/CeamatuV)
+- Linkedin: [@Ceamatu-Cristian](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
 
-👤 **Diego Lira**
+👤 **Popoola Grace Boluwatife**
 
-- Github: [@githubhandle](https://github.com/lirad)
-- Twitter: [@twitterhandle](https://twitter.com/lirad)
-- Linkedin: [linkedin](https://www.linkedin.com/in/diegoalira/)
+- Github: [@GraceOyiza](https://github.com/GraceOyiza)
+- Twitter: [@_PopsonGrace](https://twitter.com/_PopsonGrace)
+- LinkedIn: [@grace](https://www.linkedin.com/in/grace-popoola-657a181aa/)
+
 
 ## Show your support
 

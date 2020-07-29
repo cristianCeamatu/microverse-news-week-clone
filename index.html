@@ -4,12 +4,1110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/app.css">
-  <title>Testing linters</title>
+  <title>News week homepage clone</title>
 </head>
 
 <body>
-  <h1>Hello world!</h1>
+
+  <!-- Navigation -->
+  <nav class="nav ">
+    <!-- Nav top -->
+    <div
+      class="nav-top bg-red-color d-flex justify-content-between align-items-center p-2 pt-lg-3 pb-lg-2 px-lg-3 w-100">
+      <ul class="nav-lg-left list-unstyled text-white text-roboto font-weight-bold d-none d-lg-block mb-0">
+        <li class="py-lg-2"><a href=""><i class="fas fa-cloud-sun"></i> 29 null, Ro <i
+              class="fas fa-angle-right"></i></a>
+        </li>
+        <li class="py-lg-1"><time datetime="2020-07-27">Mon, Jul 27, 2020</time></li>
+      </ul>
+
+      <ul class="nav-left list-unstyled d-flex align-items-center mb-1">
+        <li class="nav-brand"><a href="#"><img src="img/navigation-logo.svg" alt="brand-logo"></a></li>
+      </ul>
+
+      <ul class="nav-right list-unstyled d-flex mb-0 align-items-center">
+        <li><a href="#" class="h5 mr-1"><span class="d-none d-md-inline text-white">LOGIN</span> <i
+              class="fas fa-user d-md-none text-semi-white"></i></a></li>
+        <li class="px-2 mr-2 pr-lg-0 mr-lg-0">
+          <button class="nav-button btn btn-warning py-0 px-2 font-weight-bold" type="button">SUBSCRIBE <i
+              class="fas fa-angle-right"></i></button>
+        </li>
+        <li class="d-lg-none"><a class="nav-mobile-menu h5 mt-1 pr-2"><i class="fas fa-bars text-semi-white"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Nav middle -->
+    <ul
+      class="nav-lg-middle list-unstyled d-none d-lg-flex py-lg-2 text-roboto font-weight-bold border-bottom pb-2 w-100 position-relative">
+      <li class="px-lg-2 border-right"><a href="">U.S.</a></li>
+      <li class="px-lg-2 border-right"><a href="">World</a></li>
+      <li class="px-lg-2 border-right"><a href="">Business</a></li>
+      <li class="px-lg-2 border-right"><a href="">Tech & Science</a></li>
+      <li class="px-lg-2 border-right"><a href="">Culture</a></li>
+      <li class="px-lg-2 border-right"><a href="">Newsgeek</a></li>
+      <li class="px-lg-2 border-right"><a href="">Sports</a></li>
+      <li class="px-lg-2 border-right"><a href="">Health</a></li>
+      <li class="px-lg-2 border-right"><a href="">The debate</a></li>
+      <li class="px-lg-2 border-right"><a href="">Vantage</a></li>
+      <li class="px-lg-2 border-right"><a href="">Weather</a></li>
+      <li class="font-size-14 font-weight-normal nav-lg-middle-search align-middle pl-lg-1 ml-lg-2">Search <i
+          class="fas fa-search"></i>
+      </li>
+    </ul>
+
+    <!-- Nav bottom -->
+    <ul
+      class="nav-lg-bottom text-uppercase list-unstyled d-none d-lg-flex px-3 font-weight-bold border-bottom w-100 pb-2">
+      <li class="text-black"><a href="">Trending</a></li>
+      <li class="pl-4"><a href="">Donald Trump</a></li>
+      <li class="pl-4"><a href="">Joe Biden</a></li>
+      <li class="pl-4"><a href="">China</a></li>
+      <li class="pl-4"><a href="">Coronavirus</a></li>
+      <li class="pl-4"><a href="">2020 Election</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <main class="main-grid-container d-md-grid">
+
+    <div class="main-top-grid-container grid">
+      <!-- Top story -->
+      <section class="top-story my-3 mb-md-0">
+        <div class="container-fluid">
+          <p class="section-title font-weight-bold mb-2">TOP STORY</p>
+
+          <div class="top-story-container">
+            <article class="top-story-main-article">
+              <div class="top-story-main-article-image position-relative w-100">
+                <a href="#">
+                  <img src="./img/top-story/donald-trump.jpg" alt="Donald Trump">
+                  <div class="article-category position-absolute text-red-color font-weight-bold px-3 py-1">U.S.</div>
+                </a>
+              </div>
+
+              <div class="top-story-main-article-details">
+                <h1 class="top-story-main-article-title h5 font-weight-bold mt-2 text-roboto text-black"><a
+                    href="">Trump
+                    Cancels
+                    Republican
+                    National
+                    Convention in
+                    Florida
+                    Due to
+                    COVID-19</a>
+                </h1>
+                <p class="top-story-main-article-subtitle text-subtitle text-arial">"It's just not right with what's
+                  happened recently,
+                  the flare-up
+                  in
+                  Florida, to have a big convention," President Donald Trump said Thursday.</p>
+              </div>
+            </article>
+
+            <article class="top-story-main-subarticle py-3 d-md-none">
+              <div class="top-story-main-subarticle-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/top-story/coronaviruas-surge.jpg" alt="People with masks protesting">
+                </a>
+              </div>
+
+              <div class="top-story-main-subarticle-details">
+                <h2 class="top-story-main-subarticle-title text-roboto font-weight-bold h6"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus
+                    Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="top-story-main-subarticle-subtitle text-subtitle text-arial">Officials have blamed the surge
+                  in
+                  new coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured stories -->
+      <section class="featured-stories position-relative pt-5 pt-md-3 pb-4">
+        <div class="container-fluid">
+          <p class="section-title font-weight-bold mb-2">FEATURED STORIES</p>
+
+          <div class="featured-stories-container">
+            <article class="featured-stories-article">
+              <div class="featured-stories-article-image position-relative">
+                <a href="#">
+                  <img src="./img/featured-stories/china-consulate-houston-us.jpg" alt="China Consulate Houston US">
+                  <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                </a>
+              </div>
+
+              <div class="featured-stories-article-details">
+                <h2 class="featured-stories-article-title h5 font-weight-bold mt-2 "><a href="">U.S. Tries to Rally
+                    World
+                    Support Against 'Tyranny' of
+                    China</a>
+                </h2>
+                <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                  authoritarian
+                  at home and more
+                  aggressive
+                  and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+              </div>
+            </article>
+
+            <article class="featured-stories-article">
+              <div class="featured-stories-article-image position-relative">
+                <a href="#">
+                  <img src="./img/featured-stories/china-consulate-houston-us.jpg" alt="China Consulate Houston US">
+                  <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                </a>
+              </div>
+
+              <div class="featured-stories-article-details">
+                <h2 class="featured-stories-article-title h5 font-weight-bold mt-2 "><a href="">U.S. Tries to Rally
+                    World
+                    Support Against 'Tyranny' of
+                    China</a>
+                </h2>
+                <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                  authoritarian
+                  at home and more
+                  aggressive
+                  and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+              </div>
+            </article>
+
+            <article class="featured-stories-article">
+              <div class="featured-stories-article-image position-relative">
+                <a href="#">
+                  <img src="./img/featured-stories/china-consulate-houston-us.jpg" alt="China Consulate Houston US">
+                  <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                </a>
+              </div>
+
+              <div class="featured-stories-article-details">
+                <h2 class="featured-stories-article-title h5 font-weight-bold mt-2 "><a href="">U.S. Tries to Rally
+                    World
+                    Support Against 'Tyranny' of
+                    China</a>
+                </h2>
+                <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                  authoritarian
+                  at home and more
+                  aggressive
+                  and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+              </div>
+            </article>
+
+            <article class="featured-stories-article">
+              <div class="featured-stories-article-image position-relative">
+                <a href="#">
+                  <img src="./img/featured-stories/china-consulate-houston-us.jpg" alt="China Consulate Houston US">
+                  <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                </a>
+              </div>
+
+              <div class="featured-stories-article-details">
+                <h2 class="featured-stories-article-title h5 font-weight-bold mt-2 "><a href="">U.S. Tries to Rally
+                    World
+                    Support Against 'Tyranny' of
+                    China</a>
+                </h2>
+                <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                  authoritarian
+                  at home and more
+                  aggressive
+                  and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+              </div>
+            </article>
+
+            <article class="featured-stories-article">
+              <div class="featured-stories-article-image position-relative">
+                <a href="#">
+                  <img src="./img/featured-stories/china-consulate-houston-us.jpg" alt="China Consulate Houston US">
+                  <div class="article-category position-absolute font-weight-bold px-3 py-1 text-red-color">WORLD</div>
+                </a>
+              </div>
+
+              <div class="featured-stories-article-details">
+                <h2 class="featured-stories-article-title h5 font-weight-bold mt-2"><a href="">U.S. Tries to Rally World
+                    Support Against 'Tyranny' of
+                    China</a>
+                </h2>
+                <p class="featured-stories-article-subtitle text-arial text-subtitle">"China is increasingly
+                  authoritarian
+                  at home and more
+                  aggressive
+                  and hostile to freedom everywhere else," Secretary of State Mike Pompeo said.</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="main-grid-container-aside">
+        <!-- The debate -->
+        <section class="the-debate position-relative pt-5 pb-4 pt-md-2 mt-lg-2">
+          <div class="container-fluid">
+            <p class="section-title font-weight-bold mb-2">THE DEBATE</p>
+
+            <div class="the-debate-container">
+              <article class="the-debate-article d-flex align-items-center justify-content-start pt-2 pb-1">
+                <div class="the-debate-article-image avatar">
+                  <a href="#">
+                    <img src="./img/the-debate/m-todd-henderson.jpg" alt="China Consulate Houston US">
+                  </a>
+                </div>
+                <div class="the-debate-article-details ml-3 text-roboto text-black">
+                  <h3 class="the-debate-article-title h6 font-weight-bold"><a href="#">
+                      Everyone Benefits From Private Equity's Value Creation</a></h3>
+                  <p class="the-debate-article-author mt-1 mb-0 font-size-14 text-uppercase">
+                    By <b> M. Todd Henderson</b>
+                  </p>
+                </div>
+              </article>
+
+              <div class="the-debate-vs text-center my-2 text-size-14 font-weight-bold position-relative">
+                <span class="bg-dark text-light p-2 rounded-circle">VS</span>
+              </div>
+
+              <article
+                class="the-debate-article d-flex align-items-center flex-row-reverse pt-2 pb-3 justify-content-between">
+                <div class="the-debate-article-image avatar">
+                  <a href="#">
+                    <img src="./img/the-debate/m-todd-henderson.webp" alt="China Consulate Houston US">
+                  </a>
+                </div>
+                <div class="the-debate-article-details text-roboto text-black pr-4">
+                  <h3 class="the-debate-article-title h6 font-weight-bold"><a href="#">
+                      Everyone Benefits From Private Equity's Value Creation</a></h3>
+                  <p class="the-debate-article-author mt-1 mb-0 font-size-14 text-uppercase">
+                    By <b> M. Todd Henderson</b>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Opinion -->
+        <section class="opinion position-relative pt-5 pb-4 pt-md-2">
+          <div class="container-fluid">
+            <p class="section-title font-weight-bold mb-2">OPINION</p>
+
+            <div class="opinion-container">
+              <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                <div class="opinion-article-image avatar">
+                  <a href="#">
+                    <img src="./img/opinion/harvey-risch-md-phd.webp" alt="Harvey Risch phd">
+                  </a>
+                </div>
+                <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                  <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                      Everyone Benefits From Private Equity's Value Creation</a></h3>
+                  <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                    By M. Todd Henderson
+                  </p>
+                </div>
+              </article>
+              <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                <div class="opinion-article-image avatar">
+                  <a href="#">
+                    <img src="./img/opinion/harvey-risch-md-phd.webp" alt="Harvey Risch phd">
+                  </a>
+                </div>
+                <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                  <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                      Everyone Benefits From Private Equity's Value Creation</a></h3>
+                  <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                    By M. Todd Henderson
+                  </p>
+                </div>
+              </article>
+              <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                <div class="opinion-article-image avatar">
+                  <a href="#">
+                    <img src="./img/opinion/harvey-risch-md-phd.webp" alt="Harvey Risch phd">
+                  </a>
+                </div>
+                <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                  <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                      Everyone Benefits From Private Equity's Value Creation</a></h3>
+                  <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                    By M. Todd Henderson
+                  </p>
+                </div>
+              </article>
+
+              <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                <div class="opinion-article-image avatar">
+                  <a href="#">
+                    <img src="./img/opinion/harvey-risch-md-phd.webp" alt="Harvey Risch phd">
+                  </a>
+                </div>
+                <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                  <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                      Everyone Benefits From Private Equity's Value Creation</a></h3>
+                  <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                    By M. Todd Henderson
+                  </p>
+                </div>
+              </article>
+
+              <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                <div class="opinion-article-image avatar">
+                  <a href="#">
+                    <img src="./img/opinion/harvey-risch-md-phd.webp" alt="Harvey Risch phd">
+                  </a>
+                </div>
+                <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                  <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                      Everyone Benefits From Private Equity's Value Creation</a></h3>
+                  <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                    By M. Todd Henderson
+                  </p>
+                </div>
+              </article>
+
+              <article class="opinion-article d-flex align-items-start pt-2 pb-2 border-bottom">
+                <div class="opinion-article-image avatar">
+                  <a href="#">
+                    <img src="./img/opinion/harvey-risch-md-phd.webp" alt="Harvey Risch phd">
+                  </a>
+                </div>
+                <div class="opinion-article-details pt-2 text-roboto text-black pl-3">
+                  <h3 class="opinion-article-title h6 font-weight-bold mb-0"><a href="#">
+                      Everyone Benefits From Private Equity's Value Creation</a></h3>
+                  <p class="opinion-article-author font-size-14 text-secondary font-weight-bold">
+                    By M. Todd Henderson
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- More stories -->
+      <section class="more-stories position-relative pt-5 pt-md-2 pb-4">
+        <div class="container-fluid">
+          <p class="section-title font-weight-bold mb-2 ">MORE STORIES</p>
+
+          <div class="more-stories-container">
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.jpg" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+
+            <article class="more-stories-article border-top clearfix py-3">
+              <div class="more-stories-article-image float-left mr-3 mb-1">
+                <a href="#">
+                  <img src="./img/more-stories/joe-biden.webp" alt="Joe Biden">
+                </a>
+              </div>
+
+              <div class="more-stories-article-details">
+                <h2 class="more-stories-article-title font-weight-bold h6 text-roboto"><a href="">U.S. Surpasses 4
+                    Million
+                    Coronavirus Cases As States
+                    Battle New Surge</a>
+                </h2>
+                <p class="more-stories-article-subtitle text-subtitle text-arial ">Officials have blamed the surge in
+                  new
+                  coronavirus cases on
+                  states reopening too quickly, while others have placed the blame on the lack of social distancing.</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- My turn -->
+      <section class="my-turn position-relative pt-5 pt-md-1 pb-2">
+        <div class="container-fluid">
+          <p class="section-title font-weight-bold mb-2">MY TURN</p>
+
+          <div class="my-turn-container grid">
+            <figure class="my-turn-figure my-0 font-weight-bold text-secondary">
+              <img src="./img/my-turn/funeral-homes-funeral-covid-19-pandemic.jpg"
+                alt="funeral-homes-funeral-covid-19-pandemic">
+              <figcaption class="my-turn-figcaption pt-3 pb-4"><a href="" class="text-roboto">'I'm a Funeral Director.
+                  COVID-19 Has
+                  Changed How We Say
+                  Goodbye'</a></figcaption>
+            </figure>
+
+            <figure class="my-turn-figure my-0 font-weight-bold text-secondary">
+              <img src="./img/my-turn/funeral-homes-funeral-covid-19-pandemic.jpg"
+                alt="funeral-homes-funeral-covid-19-pandemic">
+              <figcaption class="my-turn-figcaption pt-3 pb-4"><a href="" class="text-roboto">'I'm a Funeral Director.
+                  COVID-19 Has
+                  Changed How We Say
+                  Goodbye'</a></figcaption>
+            </figure>
+
+            <figure class="my-turn-figure my-0 font-weight-bold text-secondary">
+              <img src="./img/my-turn/funeral-homes-funeral-covid-19-pandemic.jpg"
+                alt="funeral-homes-funeral-covid-19-pandemic">
+              <figcaption class="my-turn-figcaption pt-3 pb-4"><a href="" class="text-roboto">'I'm a Funeral Director.
+                  COVID-19 Has
+                  Changed How We Say
+                  Goodbye'</a></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Culture Travel -->
+      <section class="culture-travel">
+        <div class="container-fluid">
+          <p class="section-title font-weight-bold mb-2">CULTURE & TRAVEL</p>
+
+          <div class="culture-travel-container grid">
+
+            <figure class="culture-travel-figure my-0">
+              <div class="culture-travel-image position-relative">
+                <span
+                  class="culture-travel-tag article-category position-absolute font-weight-bold px-2 py-0 text-secondary font-size-14">TRAVEL</span>
+                <img src="./img/culture-travel/mount-fuji.jpg" alt="mount-fuji">
+              </div>
+              <figcaption class="culture-travel-figcaption font-weight-bold text-roboto pt-3 pb-4 text-secondary"><a
+                  href="">The Top
+                  Destinations Travelers
+                  Want to
+                  Escape to in
+                  2021 </a></figcaption>
+            </figure>
+
+            <figure class="culture-travel-figure my-0">
+              <div class="culture-travel-image position-relative">
+                <span
+                  class="culture-travel-tag article-category position-absolute font-weight-bold px-2 py-0 text-secondary font-size-14">TRAVEL</span>
+                <img src="./img/culture-travel/mount-fuji.jpg" alt="mount-fuji">
+              </div>
+              <figcaption class="culture-travel-figcaption font-weight-bold text-roboto pt-3 pb-4 text-secondary"><a
+                  href="">The Top
+                  Destinations Travelers
+                  Want to
+                  Escape to in
+                  2021 </a></figcaption>
+            </figure>
+
+            <figure class="culture-travel-figure my-0">
+              <div class="culture-travel-image position-relative">
+                <span
+                  class="culture-travel-tag article-category position-absolute font-weight-bold px-2 py-0 text-secondary font-size-14">TRAVEL</span>
+                <img src="./img/culture-travel/mount-fuji.jpg" alt="mount-fuji">
+              </div>
+              <figcaption class="culture-travel-figcaption font-weight-bold text-roboto pt-3 pb-4 text-secondary"><a
+                  href="">The Top
+                  Destinations Travelers
+                  Want to
+                  Escape to in
+                  2021 </a></figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Sign up -->
+      <section class="sign-up p-4 text-roboto bg-gray mx-auto my-5">
+        <div class="container-fluid">
+          <div class="sign-up-header d-flex align-items-center mb-3">
+            <img src="./favicon.ico" alt="News week logo" class="sign-up-logo">
+            <h3 class="title-logo font-weight-bold pl-3 mb-0 text-uppercase">Start your day with our top 5 articles</h3>
+          </div>
+
+          <form action="#" class="sign-up-form">
+            <input type="text" placeholder="Email address"
+              class="sign-up-input w-100 outline-none font-size-14 py-1 px-2 mb-2">
+            <button type="submit"
+              class="sign-up-form-button w-100 rounded outline-none border-0 bg-red-color text-white py-1 px-2 font-weight-bold">FREE
+              SIGN UP
+              ></button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Magazine -->
+    <section class="magazine position-relative pt-5 pb-2">
+      <div class="container-fluid">
+        <p class="title-logo text-center text-roboto font-weight-bold pb-md-3"><img src="./favicon.ico"
+            alt="News week logo" class="sign-up-logo"> IN THE MAGAZINE</p>
+
+        <div class="magazine-container align-items-end grid">
+          <article class="magazine-article-main align-self-end">
+            <div class="magazine-article-main-image position-relative">
+              <img src="./img/magazine/first-article.jpg" alt="The utility player" class="">
+              <div
+                class="magazine-article-main-tag article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                AUGUST 07 ISSUE</div>
+            </div>
+            <a href="#" class="magazine-features text-center d-block font-weight-bold p-2 bg-gray">SEE ALL FEATURES
+              ></a>
+          </article>
+
+          <article class="magazine-article">
+            <div class="magazine-article-image">
+              <img src="./img/magazine/fea-kushner.jpg" alt="fea-kushner">
+            </div>
+            <div class="magazine-article-tags font-weight-bold text-roboto">
+              <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+              <a href="#" class="text-red-color">NEWS</a>
+            </div>
+            <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2 mb-md-0">Exclusive: Kushner Gets
+              Candid On
+              Troubled Trump Campaign, Mideast, Mored</h3>
+          </article>
+          <article class="magazine-article">
+            <div class="magazine-article-image">
+              <img src="./img/magazine/fea-kushner.jpg" alt="fea-kushner">
+            </div>
+            <div class="magazine-article-tags font-weight-bold text-roboto">
+              <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+              <a href="#" class="text-red-color">NEWS</a>
+            </div>
+            <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+            </h3>
+          </article>
+          <article class="magazine-article">
+            <div class="magazine-article-image">
+              <img src="./img/magazine/fea-kushner.jpg" alt="fea-kushner">
+            </div>
+            <div class="magazine-article-tags font-weight-bold text-roboto">
+              <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+              <a href="#" class="text-red-color">NEWS</a>
+            </div>
+            <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+            </h3>
+          </article>
+
+          <article class="magazine-article">
+            <div class="magazine-article-image">
+              <img src="./img/magazine/fea-kushner.jpg" alt="fea-kushner">
+            </div>
+            <div class="magazine-article-tags font-weight-bold text-roboto">
+              <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+              <a href="#" class="text-red-color">NEWS</a>
+            </div>
+            <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+            </h3>
+          </article>
+
+          <article class="magazine-article">
+            <div class="magazine-article-image">
+              <img src="./img/magazine/fea-kushner.jpg" alt="fea-kushner">
+            </div>
+            <div class="magazine-article-tags font-weight-bold text-roboto">
+              <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+              <a href="#" class="text-red-color">NEWS</a>
+            </div>
+            <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+            </h3>
+          </article>
+
+          <article class="magazine-article">
+            <div class="magazine-article-image">
+              <img src="./img/magazine/fea-kushner.jpg" alt="fea-kushner">
+            </div>
+            <div class="magazine-article-tags font-weight-bold text-roboto">
+              <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+              <a href="#" class="text-red-color">NEWS</a>
+            </div>
+            <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+            </h3>
+          </article>
+
+          <article class="magazine-article">
+            <div class="magazine-article-image">
+              <img src="./img/magazine/fea-kushner.jpg" alt="fea-kushner">
+            </div>
+            <div class="magazine-article-tags font-weight-bold text-roboto">
+              <a href="#" class="bg-red-color text-white mr-2 px-2 py-1 d-inline-block mt-2">COVER</a>
+              <a href="#" class="text-red-color">NEWS</a>
+            </div>
+            <h3 class="magazine-article-title text-roboto h6 font-weight-bold mb-4 mt-2">How China Co-opts Hollywood
+            </h3>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Editor picks -->
+    <section class="editor-picks position-relative pt-5 pb-2">
+      <div class="container-fluid">
+        <p class="title-logo text-center text-roboto font-weight-bold border-bottom pb-2"><img src="./favicon.ico"
+            alt="News week logo" class="sign-up-logo"> EDITOR`S PICKS</p>
+
+        <div class="editor-picks-container grid">
+
+          <article class="editor-picks-article ">
+            <div class="editor-picks-image position-relative">
+              <div
+                class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                U.S.</div>
+              <img src="./img/editor-picks/face-mask.jpg" alt="Face mask">
+            </div>
+            <div class="editor-picks-details mt-2">
+              <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                  a
+                  Face Mask?</a></h3>
+              <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                people, such as
+                children under
+                the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                find wearing masks to be difficult.</p>
+            </div>
+          </article>
+          <article class="editor-picks-article ">
+            <div class="editor-picks-image position-relative">
+              <div
+                class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                U.S.</div>
+              <img src="./img/editor-picks/face-mask.jpg" alt="Face mask">
+            </div>
+            <div class="editor-picks-details mt-2">
+              <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                  a
+                  Face Mask?</a></h3>
+              <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                people, such as
+                children under
+                the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                find wearing masks to be difficult.</p>
+            </div>
+          </article>
+          <article class="editor-picks-article ">
+            <div class="editor-picks-image position-relative">
+              <div
+                class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                U.S.</div>
+              <img src="./img/editor-picks/face-mask.jpg" alt="Face mask">
+            </div>
+            <div class="editor-picks-details mt-2">
+              <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                  a
+                  Face Mask?</a></h3>
+              <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                people, such as
+                children under
+                the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                find wearing masks to be difficult.</p>
+            </div>
+          </article>
+          <article class="editor-picks-article ">
+            <div class="editor-picks-image position-relative">
+              <div
+                class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                U.S.</div>
+              <img src="./img/editor-picks/face-mask.jpg" alt="Face mask">
+            </div>
+            <div class="editor-picks-details mt-2">
+              <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                  a
+                  Face Mask?</a></h3>
+              <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                people, such as
+                children under
+                the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                find wearing masks to be difficult.</p>
+            </div>
+          </article>
+          <article class="editor-picks-article ">
+            <div class="editor-picks-image position-relative">
+              <div
+                class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                U.S.</div>
+              <img src="./img/editor-picks/face-mask.jpg" alt="Face mask">
+            </div>
+            <div class="editor-picks-details mt-2">
+              <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                  a
+                  Face Mask?</a></h3>
+              <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                people, such as
+                children under
+                the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                find wearing masks to be difficult.</p>
+            </div>
+          </article>
+          <article class="editor-picks-article ">
+            <div class="editor-picks-image position-relative">
+              <div
+                class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                U.S.</div>
+              <img src="./img/editor-picks/face-mask.jpg" alt="Face mask">
+            </div>
+            <div class="editor-picks-details mt-2">
+              <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                  a
+                  Face Mask?</a></h3>
+              <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                people, such as
+                children under
+                the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                find wearing masks to be difficult.</p>
+            </div>
+          </article>
+          <article class="editor-picks-article ">
+            <div class="editor-picks-image position-relative">
+              <div
+                class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                U.S.</div>
+              <img src="./img/editor-picks/face-mask.jpg" alt="Face mask">
+            </div>
+            <div class="editor-picks-details mt-2">
+              <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                  a
+                  Face Mask?</a></h3>
+              <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                people, such as
+                children under
+                the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                find wearing masks to be difficult.</p>
+            </div>
+          </article>
+          <article class="editor-picks-article ">
+            <div class="editor-picks-image position-relative">
+              <div
+                class="editor-picks-tag  article-category position-absolute text-red-color font-weight-bold p-2 font-size-14">
+                U.S.</div>
+              <img src="./img/editor-picks/face-mask.jpg" alt="Face mask">
+            </div>
+            <div class="editor-picks-details mt-2">
+              <h3 class="editor-picks-title h5 text-roboto mb-1 font-weight-bold "><a href="">Who is Exempt From Wearing
+                  a
+                  Face Mask?</a></h3>
+              <p class="editor-picks-subtitle text-subtitle text-arial">The CDC recommends that certain groups of
+                people, such as
+                children under
+                the age of two, should not wear masks, but that others should find adaptations and alternatives if they
+                find wearing masks to be difficult.</p>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    <div class="flex-container-social d-lg-flex">
+      <!-- Subscribe -->
+      <section class="subscribe position-relative pt-5 pb-4">
+        <div class="container-fluid">
+          <p class="subscribe-section-title section-title font-weight-bold mb-2 text-red-color">SUBSCRIBE</p>
+
+          <div
+            class="subscribe-container bg-gray p-3 py-md-5 px-md-3 d-md-flex align-items-center justify-content-center">
+            <div class="subscribe-images position-relative mx-auto">
+              <img src="./img/subscribe/back.jpg" alt="Article cover">
+              <img src="./img/subscribe/front.jpg" alt="Article cover" class="subscribe-top-image">
+            </div>
+
+            <div class="subscribe-details text-center outline-none px-md-4">
+              <h3 class="subscribe-title text-roboto font-weight-bold h5 pt-3">In-depth Stories You Don't See
+                Elsewhere About Topics
+                You Want to
+                Read!</h3>
+              <p class="subscribe-subtitle text-arial">All Access + Weekly Delivery.
+                Choose A Membership That's Perfect for You!</p>
+              <div>
+                <button
+                  class="subscribe-button rounded outline-none border-0 bg-red-color text-white py-1 px-2 font-weight-bold"
+                  type="button">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter position-relative pt-5 pb-4">
+        <div class="container-fluid">
+          <p class="newsletter-section-title section-title font-weight-bold mb-2 text-red-color">NEWSLETTER</p>
+
+          <div class="newsletter-container text-center border p-3 p-md-0 d-md-flex align-items-center">
+            <div class="newsletter-image d-none d-md-block">
+              <img class="position-relative" src="./img/newsletter/starting5-homepage.png" alt="starting5-homepage">
+            </div>
+
+            <div class="newsletter-form-container p-md-4 px-lg-4 w-100">
+              <div class="newsletter-header">
+                <h3 class="newsletter-title h5 text-roboto text-black font-weight-bold">The Starting 5</h3>
+                <p class="newsletter-subtitle text-arial font-size-14 pt-2">See why nearly a quarter of a million
+                  subscribers
+                  begin their day with the
+                  Starting 5.</p>
+              </div>
+
+              <form action="#" class="newsletter-form">
+                <input type="text" placeholder="Email address"
+                  class="newsletter-input w-100 outline-none font-size-14 p-2 mb-2">
+                <button type="submit"
+                  class="newsletter-form-button w-100 rounded outline-none border-0 bg-red-color text-white py-2 font-weight-bold">FREE
+                  SIGN UP ></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer position-relative pt-5 pb-2">
+    <div class="container-fluid">
+
+      <div class="footer-top d-md-flex justify-content-between align-items-center border-bottom pb-md-2 mb-2">
+        <div class="footer-left d-md-flex align-items-end">
+          <img class="footer-logo mb-2 mr-md-3" src="img/footer-logo.svg" alt="footer-logo">
+          <p class="footer-copyright mb-2 mb-md-1 text-arial text-uppercase">© 2020 Newsweek</p>
+        </div>
+
+        <ul class="footer-social list-unstyled d-flex align-items-center pb-1 mb-0 pb-md-0">
+          <li><a href="#" class="mr-2 h3"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#" class="mr-2 h3"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" class="mr-2 h3"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#" class="mr-2 h3"><i class="fab fa-tumblr"></i></a></li>
+          <li><a href="#" class="h3"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-editions font-size-14 text-arial">
+        <div class="footer-editions-countries d-flex">
+          <p class="editions-title font-weight-bold">Editions:</p>
+          <ul class="footer-links d-flex align-items-center list-unstyled flex-wrap-reverse pl-3">
+            <li><a href="#" class="mr-3 mb-1">Pakistan</a></li>
+            <li><a href="#" class="mr-3 mb-1">Polska</a></li>
+            <li><a href="#" class="mr-3 mb-1">Romania</a></li>
+            <li><a href="#" class="mr-3 mb-1">U.S. Edition</a></li>
+            <li><a href="#" class="mr-3 mb-1">日本</a></li>
+          </ul>
+        </div>
+        <ul class="footer-link d-flex list-unstyled flex-wrap">
+          <li class="mr-3 mb-2"><a href="#">About Us</a></li>
+          <li class="mr-3 mb-2"><a href="#">Corrections</a></li>
+          <li class="mr-3 mb-2"><a href="#">Contact Us</a></li>
+          <li class="mr-3 mb-2"><a href="#">Editorial Guidelines</a></li>
+          <li class="mr-3 mb-2"><a href="#">Advertise</a></li>
+          <li class="mr-3 mb-2"><a href="#">Copyright</a></li>
+          <li class="mr-3 mb-2"><a href="#">Terms & Conditions</a></li>
+          <li class="mr-3 mb-2"><a href="#">Privacy Policy</a></li>
+          <li class="mr-3 mb-2"><a href="#">Cookie Policy</a></li>
+          <li class="mr-3 mb-2"><a href="#">Terms of Sale</a></li>
+          <li class="mr-3 mb-2"><a href="#">Archive</a></li>
+          <li class="mr-3 mb-2"><a href="#">Announcements</a></li>
+          <li class="mr-3 mb-2"><a href="#">Consent preferences</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </footer>
+
 </body>
 
 </html>
