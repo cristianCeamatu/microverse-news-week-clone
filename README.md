@@ -54,7 +54,7 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 - Github: [@GraceOyiza](https://github.com/GraceOyiza)
 - Twitter: [@_PopsonGrace](https://twitter.com/_PopsonGrace)
-- LinkedIn: [@grace](https://www.linkedin.com/in/grace-popoola-657a181aa/)
+- LinkedIn: [@grace](https://www.linkedin.com/in/grace-popoola)
 
 
 ## Show your support
